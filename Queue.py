@@ -13,6 +13,8 @@ class Queue():
 
 
 def main():
+    print("Queue Testing")
+    
     q = Queue()
 
     print(q.data)
