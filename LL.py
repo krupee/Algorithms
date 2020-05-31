@@ -68,6 +68,8 @@ class LinkedList():
 
 
 def main():
+    print("Linked List Testing")
+
     LL = LinkedList()
     
     LL.insert(Node(1))
@@ -94,6 +96,6 @@ def main():
     LL.deleteValue(6)
     LL.printList()
 
+    print()
 
-
-#main()
+main()

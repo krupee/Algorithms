@@ -13,9 +13,9 @@ class Stack():
 
 
 def main():
+    print("Stack Testing")
+    
     stack = Stack()
-
-    stack.LL.printList()
 
     stack.push(Node(1))
     stack.push(Node(3))
