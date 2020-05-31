@@ -43,14 +43,27 @@ class LinkedList():
                 prev.next = current.next
 
 
-
-    
     def printList(self):
         current = self.root
         while (current is not None):
             print(str(current.value) + " -> ", end = "")
             current = current.next
         print()
+
+    # Methods for Stack Implementation
+
+    def deleteAndReturnFront(self):
+        current = self.root
+        if (current is not None):
+            temp_node = current.next
+            self.root = temp_node
+            return current
+        return None
+
+    
+    def insertIntoFront(self, new_node):
+        new_node.next = self.root
+        self.root = new_node
 
 
 
@@ -80,7 +93,7 @@ def main():
 
     LL.deleteValue(6)
     LL.printList()
-    
 
 
-main()
+
+#main()
