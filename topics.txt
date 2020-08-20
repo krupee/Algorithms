@@ -1,0 +1,20 @@
+Data Structures
+- Linked List
+- Trees, Tries, Graphs
+- Stacks and Queues
+- Heaps
+- Array
+- Hash Tables
+
+Algorithms
+- BFS, DFS
+- Binary Search
+- Merge/Quick Sort
+
+Concepts
+- Bit Manipulation
+- Memory (Stack vs Heap)
+- Recursion
+- Dynamic Programming
+- Big O
+
